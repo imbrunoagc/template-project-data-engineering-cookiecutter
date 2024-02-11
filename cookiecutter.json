@@ -1,13 +1,15 @@
 {
-    "project_name": "project",
-    "project_slug": "project",
+    "project_name": "project_name",
+    "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
+    "description": "input description of project!",
     "version": "0.1.0",
-    "author": "Bruno Cardoso",
+    "author": "Your name",
     "license": [
         "MIT",
-        "BSD-3",
-        "GNU GPL v3.0",
-        "Apache Software License 2.0"
+        "BSD",
+        "GPLv3",
+        "Apache Software License 2.0",
+        "Not open source"
     ]
 
 }
