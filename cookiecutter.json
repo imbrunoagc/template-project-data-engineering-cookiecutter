@@ -1,5 +1,5 @@
 {
-    "project_name": "project_name",
+    "project_name": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
     "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
     "description": "input description of project!",
     "version": "0.1.0",

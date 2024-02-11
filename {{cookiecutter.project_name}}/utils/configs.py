@@ -1,0 +1,1 @@
+"""Aqui você pode codar suas conexões/caminhos locais (dataset, database, flatfiles)"""
