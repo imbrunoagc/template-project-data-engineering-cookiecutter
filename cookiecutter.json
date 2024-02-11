@@ -1,0 +1,45 @@
+{
+    "project_name": "project",
+    "project_slug": "project",
+    "version": "0.1.0",
+    "author": "Bruno Cardoso",
+    "license": [
+        "MIT",
+        "BSD-3",
+        "GNU GPL v3.0",
+        "Apache Software License 2.0"
+    ],
+    
+    "connect_to_database": {
+        "type": "boolean",
+        "description": "Deseja se conectar a algum banco de dados?",
+        "default": false
+    },
+    "database_type": {
+        "type": "str",
+        "description": "Se sim, selecione o tipo de banco de dados:",
+        "default": "none",
+        "choices": ["none", "MySQL", "PostgreSQL", "SQLite", "Outro"]
+    },
+    "database_user": {
+        "type": "str",
+        "description": "Usuário do banco de dados:",
+        "default": "none"
+    },
+    "database_password": {
+        "type": "str",
+        "description": "Senha do banco de dados:",
+        "default": "none"
+    },
+    "database_host": {
+        "type": "str",
+        "description": "Host do banco de dados:",
+        "default": "none"
+    },
+    "database_name": {
+        "type": "str",
+        "description": "Nome do banco de dados:",
+        "default": "none"
+}
+
+}
