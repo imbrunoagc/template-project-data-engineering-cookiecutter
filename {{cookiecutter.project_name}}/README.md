@@ -46,7 +46,7 @@
 ```
 
 ## Contribuidores
-Veja os constribuidores! [Consulte a documentação para obter mais informações](repo 2024\CONTRIBUTORS.md).
+Veja os constribuidores! [Consulte a documentação para obter mais informações]({{cookiecutter.project_name}}\CONTRIBUTORS.md).
 
 
 ### Instalando Requisitos de Desenvolvimento
